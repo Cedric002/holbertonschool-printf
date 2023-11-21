@@ -1,1 +1,2 @@
-test token
+- Création du repertoire Git nommé holbertonschool-printf
+- Confirmation de push un fichier sans avoir besoin de demander le mot de passe et/ou nom d'utilisateur
