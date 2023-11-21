@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char character;
+	int character;
 
 	for (character = 0; character < 128; character++)
 	{
