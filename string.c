@@ -10,11 +10,11 @@
 int main(void)
 {
 	char string[] = "Hello, World";
-	int c;
+	int character;
 
-	for (c = 0; string[c] != '\0'; c++)
+	for (character = 0; string[character] != '\0'; character++)
 	{
-		putchar(string[c]);
+		putchar(string[character]);
 	}
 
 	return (0);
