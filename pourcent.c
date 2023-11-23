@@ -4,13 +4,15 @@
 #include "main.h"
 
 /**
- * pourcent - Entry point
+ * pourcent - Affiche un %
  *
  * Return: Always 0
  */
 int pourcent(void)
 {
 	putchar('%');
+
+	putchar('\n');
 
 	return (0);
 }
