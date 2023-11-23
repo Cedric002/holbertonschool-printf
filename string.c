@@ -10,13 +10,14 @@
  */
 int string(void)
 {
-	char string[] = "Hello, World";
+	char string[] = "I am a string !";
 	int character;
 
 	for (character = 0; string[character] != '\0'; character++)
 	{
 		putchar(string[character]);
 	}
+	putchar('\n');
 
 	return (0);
 }
