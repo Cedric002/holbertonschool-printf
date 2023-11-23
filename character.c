@@ -4,18 +4,14 @@
 #include "main.h"
 
 /**
- * character - Entry point
+ * character - Affiche un caractere
  *
  * Return: Always 0
  */
 int character(void)
 {
-	int character;
-
-	for (character = 0; character < 128; character++)
-	{
-		putchar(character);
-	}
+	putchar('H'); // Affiche le caractere 'H'
+	putchar('\n'); // Affiche la nouvelle ligne
 
 	return (0);
 }
