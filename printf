@@ -1,5 +1,4 @@
-.\" Manpage for _printf
-
+.TH _printf
 .SH NAME
 printf \- formatted output conversion.
 
@@ -17,6 +16,15 @@ characters printed. The nuseradd does not take any options.
 However, you can supply username.
 
 .SH EXEMPLES
+#include <stdio.h>
+
+int main(void) {
+	printf("Hello World!\n");
+    return 0;
+}
+
+.SH AUTHORS
+Cédric Guerin & Nidigashan Kanagendran
 
 .TH man 8 "24/11/2023" "1.0" "printf man page"
 24/11/2023
